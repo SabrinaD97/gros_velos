@@ -89,6 +89,8 @@ button{
     border-radius: 50vh;
 
     padding: 10px 30px;
+
+    cursor: pointer;
 }
 
 button:hover{
@@ -136,6 +138,8 @@ button:hover{
 
     padding: 0;
     margin: 0;
+
+    list-style: none;
 }
 
 .header .menu a:hover{
@@ -165,6 +169,19 @@ button:hover{
 
     width: 50%;
     height: 427px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero .conteneur p{
+    font-size: 1.5rem;
+}
+
+.hero button{
+    align-self: center;
+    width: 315px;
 }
 
 /*CONTENU*/
@@ -175,9 +192,16 @@ button:hover{
 }
 
 .circuits .box{
-    text-align: center;
     padding-bottom: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
     max-width: 66.6667%;
+    margin: auto;
 }
 
 .circuits .conteneur-cartes{
@@ -215,8 +239,74 @@ button:hover{
     margin-top: auto;
 }
 
+/*FOOTER*/
 
+.footer{
+    text-align: center;
+    color: #000;
+
+    padding: 50px 0;
+}
+
+.footer .medias-sociaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    list-style: none;
+
+    padding-bottom: 60px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer .rond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90px;
+    width: 90px;
+
+    background-color: #D300B7;
+    color: #fff;
+
+    border-radius: 50vh;
+
+    font-size: 3.5rem;
+}
+
+.footer .rond:hover{
+    background-color: #000;
+}
 
 /*------------------------------------------------------------------------------
    Aide stylistique
 ------------------------------------------------------------------------------*/
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.fenetre{
+    background-color: #fff;
+    font-weight: bold;
+
+    max-height: 80%;
+
+    padding: 200px;
+
+    border-radius: 20px;
+}
