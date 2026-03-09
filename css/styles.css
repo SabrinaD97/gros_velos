@@ -2,25 +2,84 @@
     Generic
 ----------------------------------------------------------------------------*/
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 /*------------------------------------------------------------------------------
    Base
 ------------------------------------------------------------------------------*/
 
+body {
+    font: normal 1.125rem/160% "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+    background-color: #222;
+    color: #fff;
+}
 
 /*------------------------------------------------------------------------------
    Mise en page
 ------------------------------------------------------------------------------*/
 
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
 /*------------------------------------------------------------------------------
    Element/typographie
 ------------------------------------------------------------------------------*/
 
+h1{
+    font: bold 4rem/110% "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+
+    color: #D300B7;
+}
+
+h2{
+    font: bold 3rem/110% "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+}
+
+h3{
+    font: bold 2rem/110% "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+
+    color: #D300B7;
+}
+
+a{
+    text-decoration: none;
+
+    font: bold 1.125rem "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+}
+
+button{
+    font: bold 1.125rem/100% "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+
+    background-color: transparent;
+    color: #D300B7;
+}
 
 /*------------------------------------------------------------------------------
    Components
 ------------------------------------------------------------------------------*/
+
 
 
 /*------------------------------------------------------------------------------
