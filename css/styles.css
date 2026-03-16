@@ -226,7 +226,7 @@ button:hover{
 
 .circuits .coin{
     position: absolute;
-    top: -50px;
+    top: -45px;
     right: -50px;
 }
 
@@ -256,8 +256,7 @@ button:hover{
 
     list-style: none;
 
-    padding-bottom: 60px;
-    padding-left: 0;
+    padding: 0 0 60px;
     margin: 0;
 }
 
